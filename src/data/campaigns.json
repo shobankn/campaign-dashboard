@@ -1,0 +1,110 @@
+{
+  "campaigns": [
+    {
+      "id": "c001",
+      "name": "Lumiere Summer Launch",
+      "client": "Lumiere Skincare",
+      "status": "active",
+      "budget": 50000,
+      "spend": 32450,
+      "impressions": 2400000,
+      "clicks": 48000,
+      "conversions": 1200,
+      "trend": [1200, 1800, 1600, 2200, 2000, 2800, 2600, 3100, 2900, 3400, 3200, 3800, 3600, 4100, 3900, 4400, 4200, 4700, 4500, 5000, 4800, 5300, 5100, 5600, 5400, 5900, 5700, 6200, 6000, 6500]
+    },
+    {
+      "id": "c002",
+      "name": "Apex Q3 Performance",
+      "client": "Apex Fitness",
+      "status": "active",
+      "budget": 75000,
+      "spend": 61200,
+      "impressions": 5100000,
+      "clicks": 102000,
+      "conversions": 3060,
+      "trend": [2100, 2400, 2200, 2700, 2500, 3000, 2800, 3300, 3100, 3600, 3400, 3900, 3700, 4200, 4000, 4500, 4300, 4800, 4600, 5100, 4900, 5400, 5200, 5700, 5500, 6000, 5800, 6300, 6100, 6600]
+    },
+    {
+      "id": "c003",
+      "name": "NovaTech Brand Awareness",
+      "client": "NovaTech Solutions",
+      "status": "paused",
+      "budget": 30000,
+      "spend": 18900,
+      "impressions": 980000,
+      "clicks": 14700,
+      "conversions": 441,
+      "trend": [800, 900, 850, 1000, 950, 1100, 1050, 1200, 1150, 1300, 1250, 1400, 1350, 1500, 1450, 1600, 1550, 1700, 1650, 1800, 1750, 1900, 1850, 2000, 1950, 2100, 2050, 2200, 2150, 2300]
+    },
+    {
+      "id": "c004",
+      "name": "Harvest Fall Collection",
+      "client": "Harvest Home",
+      "status": "active",
+      "budget": 22000,
+      "spend": 9800,
+      "impressions": 620000,
+      "clicks": 9300,
+      "conversions": 279,
+      "trend": [400, 500, 450, 600, 550, 700, 650, 800, 750, 900, 850, 1000, 950, 1100, 1050, 1200, 1150, 1300, 1250, 1400, 1350, 1500, 1450, 1600, 1550, 1700, 1650, 1800, 1750, 1900]
+    },
+    {
+      "id": "c005",
+      "name": "Zephyr Launch Campaign",
+      "client": "Zephyr Travel",
+      "status": "ended",
+      "budget": 90000,
+      "spend": 90000,
+      "impressions": 7800000,
+      "clicks": 156000,
+      "conversions": 4680,
+      "trend": [3000, 3500, 3200, 3800, 3600, 4200, 4000, 4600, 4400, 5000, 4800, 5400, 5200, 5800, 5600, 6200, 6000, 6600, 6400, 7000, 6800, 7400, 7200, 7800, 7600, 8200, 8000, 8600, 8400, 9000]
+    },
+    {
+      "id": "c006",
+      "name": "PureEats Rebranding",
+      "client": "PureEats",
+      "status": "active",
+      "budget": 40000,
+      "spend": 21300,
+      "impressions": 1350000,
+      "clicks": 27000,
+      "conversions": 810,
+      "trend": [600, 750, 700, 850, 800, 950, 900, 1050, 1000, 1150, 1100, 1250, 1200, 1350, 1300, 1450, 1400, 1550, 1500, 1650, 1600, 1750, 1700, 1850, 1800, 1950, 1900, 2050, 2000, 2150]
+    },
+    {
+      "id": "c007",
+      "name": "VaultBank Digital Push",
+      "client": "VaultBank",
+      "status": "paused",
+      "budget": 120000,
+      "spend": 54600,
+      "impressions": 3200000,
+      "clicks": 64000,
+      "conversions": 1920,
+      "trend": [1500, 1800, 1650, 2000, 1850, 2200, 2050, 2400, 2250, 2600, 2450, 2800, 2650, 3000, 2850, 3200, 3050, 3400, 3250, 3600, 3450, 3800, 3650, 4000, 3850, 4200, 4050, 4400, 4250, 4600]
+    },
+    {
+      "id": "c008",
+      "name": "Solaris Solar Awareness",
+      "client": "Solaris Energy",
+      "status": "active",
+      "budget": 60000,
+      "spend": 38700,
+      "impressions": 2900000,
+      "clicks": 58000,
+      "conversions": 1740,
+      "trend": [1300, 1600, 1450, 1800, 1650, 2000, 1850, 2200, 2050, 2400, 2250, 2600, 2450, 2800, 2650, 3000, 2850, 3200, 3050, 3400, 3250, 3600, 3450, 3800, 3650, 4000, 3850, 4200, 4050, 4400]
+    }
+  ],
+  "clients": [
+    { "id": "cl001", "name": "Lumiere Skincare", "industry": "Beauty" },
+    { "id": "cl002", "name": "Apex Fitness", "industry": "Health & Fitness" },
+    { "id": "cl003", "name": "NovaTech Solutions", "industry": "Technology" },
+    { "id": "cl004", "name": "Harvest Home", "industry": "Home & Living" },
+    { "id": "cl005", "name": "Zephyr Travel", "industry": "Travel" },
+    { "id": "cl006", "name": "PureEats", "industry": "Food & Beverage" },
+    { "id": "cl007", "name": "VaultBank", "industry": "Finance" },
+    { "id": "cl008", "name": "Solaris Energy", "industry": "Energy" }
+  ]
+}

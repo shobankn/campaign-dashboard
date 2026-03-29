@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --brand: #3889FA;
+  --brand-hover: #2B75E0;
+  --brand-light: #EBF3FF;
+  --brand-glow: rgba(56, 137, 250, 0.15);
+}
+
+/* Custom font setup for Tailwind v4 */
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --default-font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+html {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* Your custom classes */
+.rob-medium { font-weight: 500; }
+.rob-semibold { font-weight: 600; }
+
+/* Scrollbar (optional) */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #4b5563;
+}
